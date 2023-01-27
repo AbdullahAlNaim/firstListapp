@@ -1,3 +1,52 @@
 body {
-    background-color: aquamarine;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: white;
+    border: solid rgb(203, 205, 203) 1px;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.todoList {
+    margin-left: 33%;
+    text-align: center;
+    width: 30%;
+    padding: 0;
+}
+
+#inputTask {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+#add {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+hr {
+    position: 50%;
+}
+
+.checked {
+    position: relative;
 }
